@@ -1,1 +1,1 @@
-web: node assistantBackend/index.js
+web: node index.js
