@@ -1,0 +1,24 @@
+{
+  "name": "assistantbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "NODE_ENV=test node_modules/.bin/jest --verbose test"
+  },
+  "author": "Kaismir Aula",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "euclidean-distance": "^1.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.2"
+  }
+}

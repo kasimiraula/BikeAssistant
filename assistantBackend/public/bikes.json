@@ -1,0 +1,128 @@
+[
+  {
+      "model": "Brooklyn",
+      "id": "5ace08fcb4e8c62cd381b000",
+        "attributes": {
+          "tire clearance": 100,
+          "fenders": 100,
+          "has many gears": 70,
+          "braking power": 25,
+          "weight": 100,
+          "aerodynamicity": 15,
+          "riding speed": 15,
+          "has lights by standard": 0,
+          "has a step-through frame": 100,
+          "is of low maintenance": 70
+        },
+      "link": "https://www.pelagobicycles.com/bicycles/brooklyn.html",
+      "photo": "https://www.pelagobicycles.com/media//wysiwyg/bikes2018/Pelago-Brooklyn.jpg"
+      },
+      {
+      "model": "Bristol",
+      "id": "5ace0935f9a31a2cdb00551f",
+      "attributes": {
+        "tire clearance": 100,
+        "fenders": 100,
+        "has many gears": 70,
+        "braking power": 25,
+        "weight": 100,
+        "aerodynamicity": 15,
+        "riding speed": 15,
+        "has lights by standard": 0,
+        "has a step-through frame": 0,
+        "is of low maintenance": 70
+      },
+      "link": "https://www.pelagobicycles.com/bicycles/bristol.html",
+      "photo": "https://www.pelagobicycles.com/media//wysiwyg/bikes2018/Bristol.jpg"
+      },
+      {
+      "model": "Stavanger Outback",
+      "id": "5ace0968f9a31a2cdb005520",
+      "attributes": {
+        "tire clearance": 100,
+        "fenders": 50,
+        "has many gears": 100,
+        "braking power": 90,
+        "weight": 40,
+        "aerodynamicity": 100,
+        "riding speed": 100,
+        "has lights by standard": 0,
+        "has a step-through frame": 0,
+        "is of low maintenance": 25
+      },
+      "link": "https://www.pelagobicycles.com/bicycles/stavanger-outback.html",
+      "photo": "https://www.pelagobicycles.com/media//wysiwyg/bikes2018/Stavanger_Outback_1.jpg"
+      },
+      {
+      "model": "Capri",
+      "id": "5ad7385a9f10ea07de20131c",
+      "attributes": {
+        "tire clearance": 70,
+        "fenders": 100,
+        "has many gears": 30,
+        "braking power": 45,
+        "weight": 30,
+        "aerodynamicity": 60,
+        "riding speed": 55,
+        "has lights by standard": 0,
+        "has a step-through frame": 50,
+        "is of low maintenance": 25
+      },
+      "link": "https://www.pelagobicycles.com/bicycles/capri.html",
+      "photo": "https://www.pelagobicycles.com/media//wysiwyg/bikes2018/Capri.jpg"
+      },
+      {
+      "model": "San Sebastian Street",
+      "id": "5ad738dc9f10ea07de20131d",
+      "attributes": {
+        "tire clearance": 30,
+        "fenders": 20,
+        "has many gears": 1,
+        "braking power": 45,
+        "weight": 10,
+        "aerodynamicity": 65,
+        "riding speed": 75,
+        "has lights by standard": 0,
+        "has a step-through frame": 0,
+        "is of low maintenance": 1
+      },
+      "link": "https://www.pelagobicycles.com/bicycles/san-sebastian-street.html",
+      "photo": "https://www.pelagobicycles.com/media//wysiwyg/bikes2018/San-Sebastian-Street.jpg"
+      },
+      {
+      "model": "Airisto Street",
+      "id": "5ad749a5aaa8c5095af9ff5c",
+      "attributes": {
+        "tire clearance": 30,
+        "fenders": 100,
+        "has many gears": 65,
+        "braking power": 100,
+        "weight": 60,
+        "aerodynamicity": 65,
+        "riding speed": 65,
+        "has lights by standard": 0,
+        "has a step-through frame": 50,
+        "is of low maintenance": 65
+      },
+      "link": "https://www.pelagobicycles.com/bicycles/airisto-street.html",
+      "photo": "https://www.pelagobicycles.com/media//wysiwyg/bikes2018/Airisto_Street_1.jpg"
+      },
+      {
+      "model": "Airisto Commuter",
+      "id": "5ad749dfaaa8c5095af9ff5d",
+      "attributes": {
+        "tire clearance": 30,
+        "fenders": 100,
+        "has many gears": 60,
+        "braking power": 100,
+        "weight": 70,
+        "aerodynamicity": 65,
+        "riding speed": 65,
+        "has lights by standard": 100,
+        "has a step-through frame": 50,
+        "is of low maintenance": 45
+      },
+      "link": "https://www.pelagobicycles.com/bicycles/airisto-commuter.html",
+      "photo": "https://www.pelagobicycles.com/media//wysiwyg/bikes2018/Airisto_Commuter_1.jpg"
+      }
+]
