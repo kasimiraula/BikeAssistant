@@ -1,8 +1,13 @@
 const questionsRouter = require('express').Router()
-const questiondata = require('../public/questions')
+const questiondata_en = require('../public/questionsEN')
+const questiondata_fi = require('../public/questionsFI')
 
-questionsRouter.get('/', async (request, response) => {
-  response.json(questiondata.map(formatQuestion))
+questionsRouter.get('/en', async (request, response) => {
+  response.json(questiondata_en.map(formatQuestion))
+})
+
+questionsRouter.get('/fi', async (request, response) => {
+  response.json(questiondata_fi.map(formatQuestion))
 })
 
 const formatQuestion = (question) => {
