@@ -6,11 +6,12 @@ const comparator = require('../utils/comparator')
 
 resultsRouter.post('/', async (request, response) => {
   let answers = request.body
-  answers = answers.filter(ans => ans !== null)
 
   //const newAns = new Answer()
   //newAns.answers.push(answers.map(formatAnswer))
   //await newAns.save()
+
+  answers = answers.filter(ans => ans !== null)
 
   const bikes = bikedata.map(formatBike)
   const ranked_bikes = comparator.compare_bikes_and_answers(bikes, answers)
@@ -46,10 +47,14 @@ const formatBike = (bike) => {
 }
 
 const formatAnswer = (ans) => {
-  return {
-    attribute: ans.attribute,
-    preferation: ans.answer.content,
-    value: ans.answer.value
+  if(ans === null) {
+    return null
+  } else {
+    return {
+      attribute: ans.attribute,
+      preferation: ans.answer.content,
+      value: ans.answer.value
+    }
   }
 }
 
