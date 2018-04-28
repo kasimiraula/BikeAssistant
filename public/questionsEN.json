@@ -1,7 +1,6 @@
 [
 {
 "question": "How wide tires do you prefer to have?",
-"id": "5ad594931ea0ba145b46fb1b",
 "attribute": "tire clearance",
 "answers": [
 {
@@ -20,7 +19,6 @@
 },
 {
 "question": "Do you prefer to have a wide range of gears?",
-"id": "5ad594af1ea0ba145b46fb1c",
 "attribute": "has many gears",
 "answers": [
 {
@@ -39,7 +37,6 @@
 },
 {
 "question": "Does the weight of the bike matter?",
-"id": "5ad594d01ea0ba145b46fb1d",
 "attribute": "weight",
 "answers": [
 {
@@ -58,7 +55,6 @@
 },
 {
 "question": "What kind of brakes do you prefer?",
-"id": "5ad6da950e257a0381a9c38a",
 "attribute": "braking power",
 "answers": [
 {
@@ -77,7 +73,6 @@
 },
 {
 "question": "What kind of riding position are you looking for?",
-"id": "5ad6db1b0e257a0381a9c38b",
 "attribute": "aerodynamicity",
 "answers": [
 {
@@ -95,8 +90,7 @@
 ]
 },
 {
-"question": "How would you describe your normal riding speed?",
-"id": "5ad6db670e257a0381a9c38c",
+"question": "How would you describe your usual riding speed?",
 "attribute": "riding speed",
 "answers": [
 {
@@ -115,7 +109,6 @@
 },
 {
 "question": "Do you use lights on your bike?",
-"id": "5ad6dbbe0e257a0381a9c38d",
 "attribute": "has lights by standard",
 "answers": [
 {
@@ -134,7 +127,6 @@
 },
 {
 "question": "Is it important that a bike has a low frame?",
-"id": "5ad6dbd30e257a0381a9c38e",
 "attribute": "has a step-through frame",
 "answers": [
 {
@@ -152,17 +144,16 @@
 ]
 },
 {
-"question": "What do you wish from the maintenance of the bike?",
-"id": "5ad6dc8f0e257a0381a9c38f",
-"attribute": "is of low maintenance",
+"question": "What do you wish from the level of maintenance of the bike?",
+"attribute": "level of maintenance",
 "answers": [
 {
 "content": "I want to have a technical bike. I need a wide range of gears and efficient brakes to take me where I want.",
-"value": 1
+"value": 100
 },
 {
 "content": "The simpler the better. I can pump the tires every now and then.",
-"value": 100
+"value": 1
 },
 {
 "content": "I don't care. I'm not going to service it myself",
@@ -172,7 +163,6 @@
 },
 {
 "question": "Do you prefer to have mudguards on the bike?",
-"id": "5ad6dd900e257a0381a9c390",
 "attribute": "fenders",
 "answers": [
 {
