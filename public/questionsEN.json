@@ -58,7 +58,7 @@
 "attribute": "braking power",
 "answers": [
 {
-"content": "A coaster brake in the back, handbrake in the front",
+"content": "A coaster brake in the back, handbrake in the front.",
 "value": 1
 },
 {
@@ -76,7 +76,7 @@
 "attribute": "aerodynamicity",
 "answers": [
 {
-"content": "A very relaxed position. I'm usually not in a hurry.",
+"content": "A very upright and relaxed position. I'm usually not in a hurry.",
 "value": 1
 },
 {
@@ -98,7 +98,7 @@
 "value": 1
 },
 {
-"content": "It varies. Sometimes I like to go faster, sometimes slower",
+"content": "It varies. Sometimes I like to go faster, sometimes slower.",
 "value": 50
 },
 {
@@ -112,11 +112,11 @@
 "attribute": "has lights by standard",
 "answers": [
 {
-"content": "Yes (and so should you!). I want to have a proper light that actually luminates the way, and not one that just makes me more visible",
+"content": "Yes (and so should you!). I want to have a proper light that actually luminates the way, and not one that just makes me more visible.",
 "value": 100
 },
 {
-"content": "I don't normally use lights. I don't need them",
+"content": "I don't normally use lights. I don't need them.",
 "value": 1
 },
 {
@@ -148,7 +148,7 @@
 "attribute": "level of maintenance",
 "answers": [
 {
-"content": "I want to have a technical bike. I need a wide range of gears and efficient brakes to take me where I want.",
+"content": "I want to have a technical bike. I need a wide range of gears and efficient brakes to take me where I want. I can service them myself.",
 "value": 100
 },
 {
@@ -156,8 +156,12 @@
 "value": 1
 },
 {
-"content": "I don't care. I'm not going to service it myself",
+"content": "I could learn to service some things, but I would definitely not touch the gears/derailleur.",
 "value": 50
+},
+{
+"content": "I don't care. I'm not going to service it myself.",
+"value": null
 }
 ]
 },

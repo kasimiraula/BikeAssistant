@@ -5,15 +5,15 @@
 "attribute": "tire clearance",
 "answers": [
 {
-"content": "As narrow as possible",
+"content": "Mahdollisimman kapeat",
 "value": 1
 },
 {
-"content": "As wide as possible",
+"content": "Mahdollisimman leveät",
 "value": 100
 },
 {
-"content": "Not too narrow, nor too wide. Something in between is perfect.",
+"content": "Ei liian kapeat, eikä liian leveätkään, vaan jotain niiden väliltä.",
 "value": 50
 }
 ]
@@ -24,167 +24,171 @@
 "attribute": "has many gears",
 "answers": [
 {
-"content": "No, a single speed bike is what I'm after.",
+"content": "Ei. Yksi vaihde riittää hyvin, kunhan se ei ole liian raskas.",
 "value": 1
 },
 {
-"content": "Yes, as many as possible to have light enough gears for trekking with my panniers.",
+"content": "Kyllä. Pyörässä tulee olla tarpeeksi vaihteita, jotta ylämäet taittuvat kevyesti myös pyöräretkeillessä sivulaukkujen kanssa.",
 "value": 100
 },
 {
-"content": "A few gears is fine. Say from 3 to 8.",
+"content": "Jonkin verran, muttei liikaa. Noin 3 - 8 vaihdetta on hyvä määrä.",
 "value": 50
 }
 ]
 },
 {
-"question": "Does the weight of the bike matter?",
+"question": "Onko pyörän painolla väliä?",
 "id": "5ad594d01ea0ba145b46fb1d",
 "attribute": "weight",
 "answers": [
 {
-"content": "Most certainly. The lighter the better",
+"content": "Ehdottomasti. Mitä kevyempi pyörä, sitä parempi.",
 "value": 100
 },
 {
-"content": "My current bike weighs a ton. Anything lighter than that would be nice.",
+"content": "Nykyinen pyöräni painaa tonnin. Mikä tahansa sitä kevyempi on jo edistystä.",
 "value": 50
 },
 {
-"content": "The weight of a bike has no meaning for me as I don't have to carry it around.",
+"content": "Pyörän painolla ei ole merkitystä, sillä minun ei tarvitse erityisemmin kannella sitä rappusissa.",
 "value": 1
 }
 ]
 },
 {
-"question": "What kind of brakes do you prefer?",
+"question": "Minkälaiset jarrut pyörässä tulee olla?",
 "id": "5ad6da950e257a0381a9c38a",
 "attribute": "braking power",
 "answers": [
 {
-"content": "A coaster brake in the back, handbrake in the front",
+"content": "Jalkajarru takana ja käsijarru edessä.",
 "value": 1
 },
 {
-"content": "Two handbrakes, but rim brakes are fine. I don't ride in bad weather.",
+"content": "Kaksi käsijarrua, jotka voivat hyvin olla vannejarrut, sillä en aja usein huonossa säässä.",
 "value": 50
 },
 {
-"content": "Two handbrakes and they need to be disc brakes. Who rides anything else these days?",
+"content": "Kaksi käsijarrua, joiden täytyy olla levyjarrut, sillä niiden jarrutusteho on ylivoimainen mihinkään muuhun jarrutyyppiin verrattuna.",
 "value": 100
 }
 ]
 },
 {
-"question": "What kind of riding position are you looking for?",
+"question": "Minkälaista ajoasentoa etsit?",
 "id": "5ad6db1b0e257a0381a9c38b",
 "attribute": "aerodynamicity",
 "answers": [
 {
-"content": "A very relaxed position. I'm usually not in a hurry.",
+"content": "Rentoa ja hyvin pystyä ajoasentoa. Minulla ei yleensä ole kiire pyöräillessä.",
 "value": 1
 },
 {
-"content": "Quite upright yet active.",
+"content": "Melko pystyä, mutta kuitenkin menevää ajoasentoa.",
 "value": 50
 },
 {
-"content": "Sporty and aerodynamic position.",
+"content": "Urheilullista ja aerodynaamista asentoa.",
 "value": 100
 }
 ]
 },
 {
-"question": "How would you describe your normal riding speed?",
+"question": "Miten kuvailisit normaalia ajonopeuttasi?",
 "id": "5ad6db670e257a0381a9c38c",
 "attribute": "riding speed",
 "answers": [
 {
-"content": "I'm usually not in a hurry, so I ride slowish.",
+"content": "Minulla ei ole yleensä kiire, joten ajan rauhallisesti.",
 "value": 1
 },
 {
-"content": "It varies. Sometimes I like to go faster, sometimes slower",
+"content": "Se vaihtelee. Joskus ajan nopeasti, joskus hitaasti.",
 "value": 50
 },
 {
-"content": "When I ride, I ride fast.",
+"content": "Ajan pääsääntöisesti lujaa, sillä kova vauhti kuuluu oleellisesti pyöräilyyn.",
 "value": 100
 }
 ]
 },
 {
-"question": "Do you use lights on your bike?",
+"question": "Minkälaiset valot pyörässä tulee olla?",
 "id": "5ad6dbbe0e257a0381a9c38d",
 "attribute": "has lights by standard",
 "answers": [
 {
-"content": "Yes (and so should you!). I want to have a proper light that actually luminates the way, and not one that just makes me more visible",
+"content": "Haluan, että pyörässä on vakiona kunnolla valaiseva valo, jonka avulla minä näen tien paremmin, sekä muut liikenteessä näkevät minut paremmin.",
 "value": 100
 },
 {
-"content": "I don't normally use lights. I don't need them",
+"content": "Pyörässä ei tarvitse oikeastaan olla valoja. Kaupunki on jo niin hyvin valaistu, että siellä näkee hyvin ajaa ilmankin.",
 "value": 1
 },
 {
-"content": "I might want something that luminates at least a little to help me ride further in autumn, but I'm not sure yet.",
+"content": "Haluaisin pyörään lampun, joka valaisee jonkin verran tietä, mutta ennen kaikkea parantaa minun näkyvyyttäni.",
 "value": 50
 }
 ]
 },
 {
-"question": "Is it important that a bike has a low frame?",
+"question": "Onko tärkeää että pyörässä on matala runko?",
 "id": "5ad6dbd30e257a0381a9c38e",
 "attribute": "has a step-through frame",
 "answers": [
 {
-"content": "Yes, granny all the way. How else do you hop on?",
+"content": "Kyllä. Sana 'mummopyörä' on tyhmä, sillä matalarunkoisen pyörän kyytiin pääseminen on vain yksinkertaisesti helpompaa (!). Ei vain mummoille. ",
 "value": 100
 },
 {
-"content": "It doesn't have to be the lowest of the lowest, but it helps if it's a little bit lowered.",
+"content": "Pyörän runko voisi olla hieman madallettu, jotta kyytiin pääseminen helpottuisi, muttei sen tarvitse aivan nilkkojen tasallakaan kulkea.",
 "value": 50
 },
 {
-"content": "No. Does someone still use those?",
+"content": "Ei. En missään nimessä halua mummopyörää.",
 "value": 1
 }
 ]
 },
 {
-"question": "What do you wish from the maintenance of the bike?",
+"question": "Mitä toivot pyörän huollettavuudelta?",
 "id": "5ad6dc8f0e257a0381a9c38f",
-"attribute": "is of low maintenance",
+"attribute": "level of maintenance",
 "answers": [
 {
-"content": "I want to have a technical bike. I need a wide range of gears and efficient brakes to take me where I want.",
-"value": 1
-},
-{
-"content": "The simpler the better. I can pump the tires every now and then.",
+"content": "Ei hätää, vaikka joutuisin säätämään vaihteita ja levyjarruja. Tiedän mitä teen.",
 "value": 100
 },
 {
-"content": "I don't care. I'm not going to service it myself",
+"content": "Mahdollisimman yksinkertainen, niin että riittää pumpata renkaat ja korkeintaan laittaa öljyä ketjuun.",
+"value": 1
+},
+{
+"content": "Jotain voisin opetellakin tekemään, vaikkapa säätämään jarruja, mutta vaihteisiin en koskisi.",
 "value": 50
+},
+{
+"content": "Asialla ei ole minulle merkitystä. En aio itse huoltaa pyörää.",
+"value": null
 }
 ]
 },
 {
-"question": "Do you prefer to have mudguards on the bike?",
+"question": "Täytyykö pyörässä olla lokasuojat?",
 "id": "5ad6dd900e257a0381a9c390",
 "attribute": "fenders",
 "answers": [
 {
-"content": "Yes, I'd like the bike to have mudguards as standard.",
+"content": "Kyllä, pyörässä on hyvä olla lokasuojat valmiina.",
 "value": 100
 },
 {
-"content": "No, I don't care for mudguards.",
+"content": "Ei, sillä en tarvitse lokasuojia.",
 "value": 1
 },
 {
-"content": "I'd like to be able to install mudguards later, although it might require slightly narrower tires.",
+"content": "Haluaisin mahdollisesti asentaa pyörään lokasuojat myöhemmin, vaikka se tarkoittaisikin että joutuisin samalla vaihtamaan renkaat kapeampiin.",
 "value": 50
 }
 ]
