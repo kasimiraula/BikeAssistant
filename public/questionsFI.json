@@ -76,20 +76,20 @@
 ]
 },
 {
-"question": "Minkälaista ajoasentoa etsit?",
+"question": "Minkälainen ajoasento on mielestäsi mukavin?",
 "id": "5ad6db1b0e257a0381a9c38b",
 "attribute": "aerodynamicity",
 "answers": [
 {
-"content": "Rentoa ja hyvin pystyä ajoasentoa. Minulla ei yleensä ole kiire pyöräillessä.",
+"content": "Rento ja hyvin pysty. Minulla ei yleensä ole kiire pyöräillessä.",
 "value": 1
 },
 {
-"content": "Melko pystyä, mutta kuitenkin menevää ajoasentoa.",
+"content": "Melko pysty, mutta kuitenkin menevä ajoasento.",
 "value": 50
 },
 {
-"content": "Urheilullista ja aerodynaamista asentoa.",
+"content": "Urheilullinen ja aerodynaaminen.",
 "value": 100
 }
 ]
@@ -108,7 +108,7 @@
 "value": 50
 },
 {
-"content": "Ajan pääsääntöisesti lujaa, sillä kova vauhti kuuluu oleellisesti pyöräilyyn.",
+"content": "Ajan pääsääntöisesti lujaa.",
 "value": 100
 }
 ]
