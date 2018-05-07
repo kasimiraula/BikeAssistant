@@ -7,9 +7,9 @@ const comparator = require('../utils/comparator')
 resultsRouter.post('/', async (request, response) => {
   let answers = request.body
 
-  //const newAns = new Answer()
-  //newAns.answers.push(answers.map(formatAnswer))
-  //await newAns.save()
+  const newAns = new Answer()
+  newAns.answers.push(answers.map(formatAnswer))
+  await newAns.save()
 
   answers = answers.filter(ans => ans !== null)
 
