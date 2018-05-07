@@ -157,15 +157,15 @@
 "value": 100
 },
 {
-"content": "Mahdollisimman yksinkertainen, niin että riittää pumpata renkaat ja korkeintaan laittaa öljyä ketjuun.",
+"content": "Haluaisin että pyörä on mahdollisimman yksinkertainen. Voin pumpata renkaat ja toisinaan öljytä ketjun.",
 "value": 1
 },
 {
-"content": "Jotain voisin opetellakin tekemään, vaikkapa säätämään jarruja, mutta vaihteisiin en koskisi.",
+"content": "Jotain voisin opetella tekemään itse, vaikkapa säätämään jarruja, mutta vaihteisiin en koskisi.",
 "value": 50
 },
 {
-"content": "Asialla ei ole minulle merkitystä. En aio itse huoltaa pyörää.",
+"content": "Asialla ei ole minulle merkitystä, sillä en aio itse huoltaa pyörää, vaan huollattaa sen muualla.",
 "value": null
 }
 ]
@@ -180,12 +180,8 @@
 "value": 100
 },
 {
-"content": "Ei, sillä en tarvitse lokasuojia.",
-"value": 1
-},
-{
-"content": "Haluaisin mahdollisesti asentaa pyörään lokasuojat myöhemmin, vaikka se tarkoittaisikin että joutuisin samalla vaihtamaan renkaat kapeampiin.",
-"value": 50
+"content": "Ei tarvitse. Haluaisin mahdollisesti asentaa pyörään lokasuojat myöhemmin, vaikka se tarkoittaisikin että joutuisin samalla vaihtamaan renkaat kapeampiin.",
+"value": 30
 }
 ]
 }

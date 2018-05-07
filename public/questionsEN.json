@@ -170,12 +170,8 @@
 "value": 100
 },
 {
-"content": "No, I don't care for mudguards.",
-"value": 1
-},
-{
-"content": "I'd like to be able to install mudguards later, although it might require slightly narrower tires.",
-"value": 50
+"content": "No, I don't care for mudguards. I'd like to be able to install them later, although it might require slightly narrower tires.",
+"value": 30
 }
 ]
 }
