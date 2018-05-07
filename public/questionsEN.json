@@ -1,14 +1,14 @@
 [
 {
-"question": "How wide tires do you prefer to have?",
+"question": "How wide tyres do you prefer to have?",
 "attribute": "tire clearance",
 "answers": [
 {
-"content": "As narrow as possible",
+"content": "As narrow as possible, since narrow tyres roll better than wide tyres.",
 "value": 1
 },
 {
-"content": "As wide as possible",
+"content": "As wide as possible, since wider tyres absorb small bumps and vibration from the road better than narrow tyres.",
 "value": 100
 },
 {
@@ -108,20 +108,16 @@
 ]
 },
 {
-"question": "Do you use lights on your bike?",
+"question": "What kind of lights do you prefer to have on a bike?",
 "attribute": "has lights by standard",
 "answers": [
 {
-"content": "Yes (and so should you!). I want to have a proper light that actually luminates the way, and not one that just makes me more visible.",
+"content": "I want to have a proper light that actually luminates the way, and not one that just makes me more visible.",
 "value": 100
 },
 {
-"content": "I don't normally use lights. I don't need them.",
-"value": 1
-},
-{
-"content": "I might want something that luminates at least a little to help me ride further in autumn, but I'm not sure yet.",
-"value": 50
+"content": "Something that luminates a little, but most of all makes me more visible to others when it's dark.",
+"value": 20
 }
 ]
 },

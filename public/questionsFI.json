@@ -5,15 +5,15 @@
 "attribute": "tire clearance",
 "answers": [
 {
-"content": "Mahdollisimman kapeat",
+"content": "Mahdollisimman kapeat, sillä kapeat renkaat rullaavat paremmin kuin leveät.",
 "value": 1
 },
 {
-"content": "Mahdollisimman leveät",
+"content": "Mahdollisimman leveät, sillä leveät renkaat vaimentavat tien epätasaisuuksia.",
 "value": 100
 },
 {
-"content": "Ei liian kapeat, eikä liian leveätkään, vaan jotain niiden väliltä.",
+"content": "Ei liian kapeat, eikä liian leveät, vaan jotain niiden väliltä.",
 "value": 50
 }
 ]
@@ -123,12 +123,8 @@
 "value": 100
 },
 {
-"content": "Pyörässä ei tarvitse oikeastaan olla valoja. Kaupunki on jo niin hyvin valaistu, että siellä näkee hyvin ajaa ilmankin.",
-"value": 1
-},
-{
 "content": "Haluaisin pyörään lampun, joka valaisee jonkin verran tietä, mutta ennen kaikkea parantaa minun näkyvyyttäni.",
-"value": 50
+"value": 20
 }
 ]
 },
