@@ -7,14 +7,14 @@ const comparator = require('../utils/comparator')
 resultsRouter.post('/', async (request, response) => {
   let answers = request.body
 
-  try {
+  /*try {
     const newAns = new Answer()
     newAns.answers.push(answers.map(formatAnswer))
     await newAns.save()
   } catch (exception) {
     console.log(exception.name)
   }
-
+*/
   answers = answers.filter(ans => ans !== null)
   const bikes = bikedata.map(formatBike)
   const ranked_bikes = comparator.compare_bikes_and_answers(bikes, answers)
