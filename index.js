@@ -7,39 +7,51 @@ const mongoose = require('mongoose')
 const app = express()
 const middleware = require('./utils/middleware')
 const config = require('./utils/config')
+const logger = require('./utils/logger')
+
+const bikesRouter = require('./controllers/bikes')
+const questionRouter = require('./controllers/questions')
+const resultsRouter = require('./controllers/results')
+const PORT = config.port
 
 app.use(cors())
 app.use(bodyParser.json())
 app.use(express.static('build'))
 app.use(middleware.logger)
 
-mongoose.connect(config.mongoUrl, { useMongoClient: true })
+mongoose.connect(config.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => {
+    logger.info('connected to MongoDB')
+  })
+  .catch((error) => {
+    logger.error('error connection to MongoDB:', error.message)
+  })
 mongoose.Promise = global.Promise
 
-const bikesRouter = require('./controllers/bikes')
 app.use('/api/bikes', bikesRouter)
-
-const questionRouter = require('./controllers/questions')
 app.use('/api/questions', questionRouter)
-
-const resultsRouter = require('./controllers/results')
 app.use('/api/results', resultsRouter)
-
-
 app.use(middleware.error)
 
-const PORT = config.port
+app.get('/', (request, response) => {
+  response.send('<h1>Hello World (or you)!</h1>')
+})
 
-const server = http.createServer(app)
 
+//const server = http.createServer(app)
+/*
 server.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`)
+})*/
+
+app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
 
-server.on('close', () => {
+/*server.on('close', () => {
   mongoose.connection.close()
-})
+})*/
 
 module.exports = {
-  app, server
+  app
 }

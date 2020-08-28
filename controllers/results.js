@@ -1,7 +1,6 @@
 const bikedata = require('../public/bikes')
 const resultsRouter = require('express').Router()
 const Answer = require('../models/answer')
-
 const comparator = require('../utils/comparator')
 
 resultsRouter.post('/', async (request, response) => {
